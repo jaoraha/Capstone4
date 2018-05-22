@@ -1,0 +1,81 @@
+<!--
+Capstone 4
+5/22/18
+John Aoraha
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping List</title>
+</head>
+<body>
+
+	<script src="script.js"></script>
+
+<table width="100%" border="0">
+        <tr>
+            <td valign="top" width="50%">
+    <table cellpadding="4" cellspacing="4" border="1">
+        <tr>
+            <td valign="top">
+                <table cellpadding="4" cellspacing="4" border="0">
+                    <thead>
+                        <tr>
+                            <td colspan="2">
+                               <h3> Products for sale </h3>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Apple $1
+                            </td>
+                            <td>
+                                <input type="button" value="Add to cart" onclick="addItem(0)"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Orange $2
+                            </td>
+                            <td>
+                                <input type="button" value="Add to cart" onclick="addItem(1)"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Banana $3
+                            </td>
+                            <td>
+                                <input type="button" value="Add to cart" onclick="addItem(2)"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                     <tr>
+                            <td>
+                                Mango $4
+                            </td>
+                            <td>
+                                <input type="button" value="Add to cart" onclick="addItem(3)"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                     <tr>
+                            <td>
+                                Kiwi $5
+                            </td>
+                            <td>
+                                <input type="button" value="Add to cart" onclick="addItem(4)"/>
+                            </td>
+                        </tr>
+                    </tbody>                  
+                </table>
+                <br>
+ 			 <button onclick="checkOut()">Check Out</button>
+            </td>
+           </tr>
+    </table> 
+</body>
+</html>
